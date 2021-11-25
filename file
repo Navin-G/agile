@@ -1,1 +1,42 @@
 ***********Guys find the commands Here*********************
+
+
+setting username and email in git bash
+{
+	git config --global user.name nraju316
+	git config --global user.email nraju316@gmail.com
+}
+To check if the user name and email are configured
+{
+	
+	git config --global -e
+}
+
+Create a Remote repository in GitHub with README file. Create a text file which
+contains answers about the following questions.
+
+i. What is Agile Methodology?
+The Agile methodology is a way to manage a project by breaking it up into several phases. It involves constant collaboration with stakeholders and continuous improvement at every stage. Once the work begins, teams cycle through a process of planning, executing, and evaluating. Continuous collaboration is vital, both with team members and project stakeholders
+
+Examples of Agile Methodology. The most popular and common examples are Scrum, eXtreme Programming (XP), Feature Driven Development (FDD), Dynamic Systems Development Method (DSDM),
+
+
+ii. Differences between Git and GitHub.
+Git is a revision control system, a tool to manage your source code history.Git is a command-line tool
+
+GitHub is a hosting service for Git repositories.GitHub is a cloud-based hosting service that lets you manage Git repositories
+1.Git is a software,	GitHub is a service.
+2.Git is a command-line tool,	GitHub is a graphical user interface
+3.Git is installed locally on the system,	GitHub is hosted on the web
+4.Git is a version control system to manage source code history,	GitHub is a hosting service for Git repositories.
+
+
+Demonstrate Three ways of importing Remote repository locally using GitBaSH.
+1.using git clone command
+go to github and create a new repository ,click on the repository name on top left after opening click on code and copy the http link
+2.open git bash login to your account
+type ->cd desktop
+git clone "paste the link here"
+
+
+
